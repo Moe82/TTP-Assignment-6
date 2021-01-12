@@ -1,8 +1,13 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
+.App header{
+  font-size: 3em;
+  color: azure;
+  background-color: rgb(66, 30, 19);
+  padding: 20px;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
