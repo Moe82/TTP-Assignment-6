@@ -21,7 +21,7 @@ class Zip extends Component {
         })
     }
     async componentDidUpdate() {
-        let url = "http://ctp-zip-api.herokuapp.com/zip/" + this.state.zip;
+        let url = "https://ctp-zip-api.herokuapp.com/zip/" + this.state.zip;
         let response = await fetch(url);
         const data = await response.json();
         console.log(data)
