@@ -1,4 +1,4 @@
-#city-cards{
+/* #city-cards{
     display: grid;
     margin-top: 2%;
     margin-left: 7%;
@@ -9,7 +9,17 @@
     font-size: 1.3em;
     float: left;
     align-items: stretch;
+} */
+
+#city-cards{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(66, 30, 19)
 }
+
 #city-cards h4{
     margin: 0;
     color: azure;
@@ -19,4 +29,5 @@
 
 #city-cards li{
     margin-left: 20px;
+    text-align: left; 
 }
